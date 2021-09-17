@@ -14,6 +14,37 @@ fields:
 - type: field_group_list
   name: list
   label: listlabel
+  fields:
+  - name: list-item1
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: list-item1
+    description: listitem 1
+  - name: list-item2
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: list-item2
+    description: list item2
+  - name: list-item3
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: list-item3
+    description: list-item3
 - type: file
   name: photo-temoin
   label: photo-temoin
@@ -37,5 +68,15 @@ fields:
   default: page-1
   config:
     required: true
+- name: listpart1
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: listpart1
+  description: listpart1
 pages:
 - content/pages/page 1.md

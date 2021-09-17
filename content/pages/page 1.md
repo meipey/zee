@@ -12,7 +12,7 @@ list:
     mollis, omnis voluptas assumenda est, omnis dolor repellendus  placeat facere.
   list-item3: Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil
     impedit quo minus id quod maxime placeat.
-photo-temoin: "/assets/portrait-carre.jpg"
+photo-temoin: "/uploads/computer2x.png"
 temoinage: "<< At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
   praesentium voluptatum deleniti atque corrupti quos dolores et excepturi qui dolorem
   ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia not dolore magnam

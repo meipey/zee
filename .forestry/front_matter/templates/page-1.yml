@@ -49,6 +49,7 @@ fields:
   name: photo-temoin
   label: photo-temoin
   default: ''
+  description: photo-temoin
 - type: text
   name: temoinage
   label: temoinage

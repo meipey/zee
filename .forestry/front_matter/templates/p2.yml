@@ -1,30 +1,21 @@
 ---
 label: p2
-hide_body: true
-display_field: permalink
 fields:
-- type: text
-  name: h1homepage
-  label: h1homepage
-  default: made with love
-- name: permalink
-  type: text
-  label: Permalink
-  config:
-    required: true
-- name: layout
-  type: text
-  hidden: true
-  label: layout
-  default: p2
-  config:
-    required: true
-- name: kleurp2
-  type: color
-  label: kleurp2
-  config:
-    required: false
-    color_format: Hex
-  description: kleurp2
-pages:
-- content/pages/p2filename.md
+  - type: text
+    name: h1homepage
+    label: h1homepage
+    default: made with love
+  - name: permalink
+    type: text
+    label: Permalink
+    config:
+      required: true
+  - name: layout
+    type: text
+    hidden: true
+    label: layout
+    default: p2
+    config:
+      required: true
+display_field: permalink
+hide_body: true

@@ -19,5 +19,3 @@ fields:
   default: p2
   config:
     required: true
-pages:
-- content/pages/p2filename.md

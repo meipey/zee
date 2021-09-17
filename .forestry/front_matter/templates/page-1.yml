@@ -1,0 +1,21 @@
+---
+label: Page 1
+fields:
+  - type: text
+    name: h1homepage
+    label: h1homepage
+    default: made with love
+  - name: permalink
+    type: text
+    label: Permalink
+    config:
+      required: true
+  - name: layout
+    type: text
+    hidden: true
+    label: layout
+    default: page-1
+    config:
+      required: true
+display_field: permalink
+hide_body: true

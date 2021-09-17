@@ -17,7 +17,7 @@ temoinage: "<< At vero eos et accusamus et iusto odio dignissimos ducimus qui bl
   praesentium voluptatum deleniti atque corrupti quos dolores et excepturi qui dolorem
   ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia not dolore magnam
   aliquam quaerat voluptatem."
-listpart1: 'listpart1 : Nam libero tempore, cum soluta nobis est eligendi optio cumque
-  nihil impedit quo minus id quod maxime placeat.'
+listpart1: Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit
+  quo minus id quod maxime placeat.
 
 ---

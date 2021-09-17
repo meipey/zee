@@ -1,5 +1,5 @@
 ---
-label: Page 1
+label: p2
 fields:
   - type: text
     name: h1homepage
@@ -14,7 +14,7 @@ fields:
     type: text
     hidden: true
     label: layout
-    default: page-1
+    default: p2
     config:
       required: true
 display_field: permalink

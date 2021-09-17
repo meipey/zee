@@ -19,5 +19,12 @@ fields:
   default: p2
   config:
     required: true
+- name: colorpickerp1
+  type: color
+  label: colorpickerP1
+  config:
+    required: false
+    color_format: Hex
+  description: nogeen colorpicker
 pages:
 - content/pages/p2filename.md

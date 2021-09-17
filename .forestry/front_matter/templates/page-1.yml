@@ -53,5 +53,4 @@ fields:
   config:
     required: true
 pages:
-- content/pages/p2.md
 - content/pages/page 1.md

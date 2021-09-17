@@ -19,5 +19,12 @@ fields:
   default: p2
   config:
     required: true
+- name: kleurp2
+  type: color
+  label: kleurp2
+  config:
+    required: false
+    color_format: Hex
+  description: kleurp2
 pages:
 - content/pages/p2filename.md

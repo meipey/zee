@@ -1,83 +1,45 @@
 ---
 label: Page 1
-hide_body: true
-display_field: permalink
 fields:
-- type: text
-  name: h1homepage
-  label: h1homepage
-  default: made with love
-- type: text
-  name: listtitle
-  label: listtitlelabel
-  default: Lorem ipsum consequat
-- type: field_group_list
-  name: list
-  label: listlabel
-  fields:
-  - name: list-item1
-    type: textarea
+  - type: file
+    name: homelogo
+    label: homelogo
     default: ''
-    config:
-      required: false
-      wysiwyg: false
-      schema:
-        format: markdown
-    label: list-item1
-    description: listitem 1
-  - name: list-item2
-    type: textarea
+  - type: text
+    name: h1homepage
+    label: h1homepage
+    default: made with love
+  - type: text
+    name: listtitle
+    label: listtitlelabel
+    default: Lorem ipsum consequat
+  - type: field_group_list
+    name: list
+    label: listlabel
+    fields: []
+  - type: file
+    name: photo-temoin
+    label: photo-temoin
     default: ''
+  - type: text
+    name: temoinage
+    label: temoinage
+    default: >-
+      << At vero eos et accusamus et iusto odio dignissimos ducimus qui
+      blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et
+      excepturi qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
+      velit, sed quia not dolore magnam aliquam quaerat voluptatem.
+  - name: permalink
+    type: text
+    label: Permalink
     config:
-      required: false
-      wysiwyg: false
-      schema:
-        format: markdown
-    label: list-item2
-    description: list item2
-  - name: list-item3
-    type: textarea
-    default: ''
+      required: true
+  - name: layout
+    type: text
+    hidden: true
+    label: layout
+    default: page-1
     config:
-      required: false
-      wysiwyg: false
-      schema:
-        format: markdown
-    label: list-item3
-    description: list-item3
-- type: file
-  name: photo-temoin
-  label: photo-temoin
-  default: ''
-  description: photo-temoin
-- type: text
-  name: temoinage
-  label: temoinage
-  default: "<< At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
-    praesentium voluptatum deleniti atque corrupti quos dolores et excepturi qui dolorem
-    ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia not dolore magnam
-    aliquam quaerat voluptatem."
-- name: permalink
-  type: text
-  label: Permalink
-  config:
-    required: true
-- name: layout
-  type: text
-  hidden: true
-  label: layout
-  default: page-1
-  config:
-    required: true
-- name: listpart1
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: false
-    schema:
-      format: markdown
-  label: listpart1
-  description: listpart1
-pages:
-- content/pages/page 1.md
+      required: true
+display_field: permalink
+hide_body: true

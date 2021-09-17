@@ -19,6 +19,6 @@ temoinage: "<< At vero eos et accusamus et iusto odio dignissimos ducimus qui bl
   aliquam quaerat voluptatem."
 listpart1: Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit
   quo minus id quod maxime placeat.
-homelogo: "/uploads/logo.png"
+homelogo: "/assets/logo.png"
 
 ---

@@ -19,5 +19,12 @@ fields:
   default: page-1
   config:
     required: true
+- name: kleurpicker
+  type: color
+  label: kleurPicker
+  config:
+    required: false
+    color_format: Hex
+  description: kleuren
 pages:
 - content/pages/page 1.md

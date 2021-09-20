@@ -12,6 +12,6 @@ homelogo: "/assets/logo.png"
 list: []
 photo-temoin: "/assets/portrait-carre.jpg"
 permalink: "/"
-autor: Aristophane
+autor: "- Aristophane - "
 
 ---

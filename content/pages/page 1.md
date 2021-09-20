@@ -20,7 +20,8 @@ temoinage: "<< At vero eos et accusamus et iusto odio dignissimos ducimus qui bl
 listpart1: Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit
   quo minus id quod maxime placeat.
 homelogo: "/assets/logo.png"
-'': ''
+'': "#CD1515"
 footertext: "<<  A good name is sooner lost then won.  >>"
+reinf-statm: ''
 
 ---

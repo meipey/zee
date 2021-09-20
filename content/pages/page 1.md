@@ -1,5 +1,5 @@
 ---
-h1homepage: made with love and silex
+h1homepage: made with silex
 layout: page-1
 permalink: "/"
 kleurpicker: "#FD0000"

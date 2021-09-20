@@ -1,0 +1,25 @@
+---
+label: Contact
+fields:
+  - type: textarea
+    name: vistiekaartjetext
+    label: vistiekaartjetext
+    default: vistiekaartjetext
+    config:
+      wysiwyg: true
+      schema:
+        format: html-blocks
+  - name: permalink
+    type: text
+    label: Permalink
+    config:
+      required: true
+  - name: layout
+    type: text
+    hidden: true
+    label: layout
+    default: contact
+    config:
+      required: true
+display_field: permalink
+hide_body: true

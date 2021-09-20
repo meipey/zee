@@ -3,7 +3,7 @@ h1homepage: made with silex
 layout: page-1
 permalink: "/"
 kleurpicker: "#FD0000"
-listtitle: Lorem ipsum consequat
+listtitle: Lorem ipsum
 colorpickerp1: "#E11D1D"
 list:
 - list-item1: Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil

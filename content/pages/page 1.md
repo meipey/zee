@@ -11,6 +11,6 @@ layout: page-1
 homelogo: "/assets/logo.png"
 list: []
 photo-temoin: "/assets/portrait-carre.jpg"
-permalink: "/"
+permalink: "/page1"
 
 ---

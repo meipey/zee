@@ -1,7 +1,7 @@
 ---
 h1homepage: made with silex
 layout: page-1
-permalink: "/"
+permalink: "/test"
 kleurpicker: "#FD0000"
 listtitle: Lorem ipsum
 colorpickerp1: "#E11D1D"

@@ -18,16 +18,11 @@ fields:
 - type: field_group_list
   name: list
   label: listlabel
-- type: color
-  name: ''
-  label: ''
-  default: ''
-  config:
-    color_format: Hex
 - type: file
   name: photo-temoin
   label: photo-temoin
   default: ''
+  description: Ceci est un temoinage
 - type: textarea
   name: reinf-statm
   label: reinf-statm

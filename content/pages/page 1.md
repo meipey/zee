@@ -22,6 +22,6 @@ listpart1: Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil 
 homelogo: "/assets/logo.png"
 '': "#CD1515"
 footertext: "<<  A good name is sooner lost then won.  >>"
-reinf-statm: ''
+reinf-statm: "<p>Reinforcing statement</p>"
 
 ---

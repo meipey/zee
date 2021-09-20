@@ -1,63 +1,63 @@
 ---
 label: blad1
-fields:
-  - type: file
-    name: homelogo
-    label: homelogo
-    default: ''
-  - type: text
-    name: h1homepage
-    label: h1homepage
-    default: made with love
-  - type: text
-    name: listtitle
-    label: listtitlelabel
-    default: Lorem ipsum consequat
-  - type: field_group_list
-    name: list
-    label: listlabel
-    fields: []
-  - type: color
-    name: ''
-    label: ''
-    default: ''
-    config:
-      color_format: Hex
-  - type: file
-    name: photo-temoin
-    label: photo-temoin
-    default: ''
-  - type: textarea
-    name: reinf-statm
-    label: reinf-statm
-    default: Reinforcing statement
-    config:
-      wysiwyg: true
-      schema:
-        format: html-blocks
-  - type: text
-    name: temoinage
-    label: temoinage
-    default: >-
-      << At vero eos et accusamus et iusto odio dignissimos ducimus qui
-      blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et
-      excepturi qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
-      velit, sed quia not dolore magnam aliquam quaerat voluptatem.
-  - type: text
-    name: footertext
-    label: footertext
-    default: "<<\_ A good name is sooner lost then won.\_ >>"
-  - name: permalink
-    type: text
-    label: Permalink
-    config:
-      required: true
-  - name: layout
-    type: text
-    hidden: true
-    label: layout
-    default: blad1
-    config:
-      required: true
-display_field: permalink
 hide_body: true
+display_field: permalink
+fields:
+- type: file
+  name: homelogo
+  label: homelogo
+  default: ''
+- type: text
+  name: h1homepage
+  label: h1homepage
+  default: made with love
+- type: text
+  name: listtitle
+  label: listtitlelabel
+  default: Lorem ipsum consequat
+- type: field_group_list
+  name: list
+  label: listlabel
+- type: color
+  name: ''
+  label: ''
+  default: ''
+  config:
+    color_format: Hex
+- type: file
+  name: photo-temoin
+  label: photo-temoin
+  default: ''
+- type: textarea
+  name: reinf-statm
+  label: reinf-statm
+  default: Reinforcing statement
+  config:
+    wysiwyg: true
+    schema:
+      format: html-blocks
+- type: text
+  name: temoinage
+  label: temoinage
+  default: "<< At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+    praesentium voluptatum deleniti atque corrupti quos dolores et excepturi qui dolorem
+    ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia not dolore magnam
+    aliquam quaerat voluptatem."
+- type: text
+  name: footertext
+  label: footertext
+  default: "<<  A good name is sooner lost then won.  >>"
+- name: permalink
+  type: text
+  label: Permalink
+  config:
+    required: true
+- name: layout
+  type: text
+  hidden: true
+  label: layout
+  default: blad1
+  config:
+    required: true
+pages:
+- content/pages/blad1.md

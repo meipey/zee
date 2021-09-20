@@ -53,3 +53,5 @@ fields:
   default: page-1
   config:
     required: true
+pages:
+- content/pages/page 1.md
